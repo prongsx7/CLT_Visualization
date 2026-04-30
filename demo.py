@@ -1,0 +1,1 @@
+print("max verstappen 2026 world champ idc idgaf")
