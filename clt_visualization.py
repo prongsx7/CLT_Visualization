@@ -9,6 +9,7 @@ df=pd.DataFrame(data) #converting file into a data set
 
 prices=df['Price'] #extracting price column
 
+prices=prices[prices!=0] #dropping zero values
 prices=prices.dropna() #dropping null values
 
 population_length=len(prices) #finding number of prices
@@ -183,5 +184,3 @@ plt.title("Distribution of z-values for N = 100")
 plt.xlabel("Z-Value")
 plt.ylabel("Frequency")
 plt.show()
-
-
