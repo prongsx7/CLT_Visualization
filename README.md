@@ -1,4 +1,3 @@
-#PROBABILITY AND STATISTIC SEMESTER PROJECT
+**PROBABILITY AND STATISTIC SEMESTER PROJECT**
 
-
-This project aims to visualize the Central Limit Theorem and prove that mean of a sample follows normal distribution.
+This project aims to visualize the **Central Limit Theorem** and prove that mean of a sample follows normal distribution.
