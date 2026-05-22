@@ -176,7 +176,7 @@ plt.show()
 # Z DISTRIBUTION FOR SAMPLE SIZE 100
 sample4_z=[]
 for i in range(0,1000):
-    p=z_value(10,sample4_means[i],sigma,mu)
+    p=z_value(100,sample4_means[i],sigma,mu)
     sample4_z.append(p)
 plt.figure()
 plt.hist(sample4_z,bins=40)
